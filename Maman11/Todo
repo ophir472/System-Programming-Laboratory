@@ -1,0 +1,4 @@
+strcmp <> my_strcmp 
+strncmp <> my_strncmp
+strchr <> my_strchr
+main - 
