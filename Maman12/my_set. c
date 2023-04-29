@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+// Macro that will add fixed number to variable.
+// Will be used for realloc
+#define ENLARGE_SIZE 4 // check this
+
+/* function that will:
+1. Get input of ints
+2. Build a set
+
+Set is a group of unuiqe values
+The number of members in set isn't limited, use function realloc.
+The function can get numbers after space or new-line until ^D / EOF
+The function will reutrn <type> and expected values are: <values> */
+void get_set(){
+    // get inputs from stdin or file
+    
+    int d;
+    printf("Please enter an integer");
+    scanf("%d", &d);
+    // while not ^D / EOF
+    // if (! blank) {
+    //     printf("Inputs were:" <list of inputs>)
+    // }
+    // prints inputs
+    // build set
+    
+}
+
+// This function will print the members of the groups by fifo
+// Output should be visualized
+// The function will reutrn <type> and expected values are: <values>
+void print_set(){
+    printf("Hi");
+}
+
+int main(int argc, char *argv[]) {
+get_set();
+print_set();
+}

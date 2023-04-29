@@ -1,0 +1,4 @@
+1. Edit comments
+2. add more input files.
+3. expected output files.
+4. run.sh: triggers my_set.c with inputs and then output to compare.
